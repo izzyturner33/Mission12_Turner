@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.book-list-container {
+  display: flex;
+  flex-direction: column; /* Stack items */
+  align-items: center; /* Center cards */
+  width: 100%; /* Make sure container takes full width */
+}
+
+.card {
+  width: 90%; /* Ensures all cards are the same width */
+  max-width: 900px; /* Make sure they are always large */
+  min-width: 700px; /* Prevents narrow cards */
+  padding: 25px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+.morph-remove {
+  transition: all 0.3s ease-in-out;
+}
+
+.morph-remove:hover .remove-text {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.morph-remove:hover i {
+  transform: rotate(-15deg) scale(1.2);
+  color: red;
+}
+
+.morph-remove .remove-text,
+.morph-remove i {
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,45 @@
+.category-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.category-checkbox {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+/* Highlight checkbox container on hover */
+.hover-highlight:hover {
+  background-color: #f0f8ff; /* Light blue */
+  cursor: pointer;
+}
+
+/* Style the checkbox on hover */
+.category-checkbox:hover {
+  outline: 2px solid #0d6efd; /* Bootstrap primary blue */
+  outline-offset: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Optional: style the checkbox when focused (keyboard users) */
+.category-checkbox:focus {
+  outline: 2px solid #0d6efd;
+  outline-offset: 1px;
+  border-radius: 3px;
+}
