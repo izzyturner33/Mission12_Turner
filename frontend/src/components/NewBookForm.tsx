@@ -114,6 +114,3 @@ const NewBookForm = ({ onSuccess, onCancel }: NewProjectFormProps) => {
 };
 
 export default NewBookForm;
-function addProject(formData: Book) {
-  throw new Error('Function not implemented.');
-}

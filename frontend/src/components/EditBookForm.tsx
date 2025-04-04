@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Book } from '../types/Book';
-import { addBook, updateBook } from '../api/BooksAPI';
+import { updateBook } from '../api/BooksAPI';
 
 interface EditProjectFormProps {
   book: Book;
@@ -105,6 +105,3 @@ const EditBookForm = ({ book, onSuccess, onCancel }: EditProjectFormProps) => {
 };
 
 export default EditBookForm;
-function addProject(formData: Book) {
-  throw new Error('Function not implemented.');
-}

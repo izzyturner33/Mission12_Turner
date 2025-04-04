@@ -10,7 +10,7 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
   const [pageSize, setPageSize] = useState<number>(5); // Number of books per page
   const [pageNum, setPageNum] = useState<number>(1); // Current page number
   const [totalPages, setTotalPages] = useState<number>(0); // Total number of pages based on `totalItems`
-  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc'); // Sorting order (ascending or descending)
+  const sortOrder: 'asc' | 'desc' = 'asc';
   const navigate = useNavigate();
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
