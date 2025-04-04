@@ -268,3 +268,5 @@
 /Users/isabelleturner/Desktop/Mission12_Turner/backend/Mission11_Turner/obj/Debug/net8.0/Mission11_Turner.pdb
 /Users/isabelleturner/Desktop/Mission12_Turner/backend/Mission11_Turner/obj/Debug/net8.0/Mission11_Turner.genruntimeconfig.cache
 /Users/isabelleturner/Desktop/Mission12_Turner/backend/Mission11_Turner/obj/Debug/net8.0/ref/Mission11_Turner.dll
+/Users/isabelleturner/Desktop/Mission12_Turner/backend/Mission11_Turner/obj/Debug/net8.0/Mission11_Turner.sourcelink.json
+/Users/isabelleturner/Desktop/Mission12_Turner/backend/Mission11_Turner/bin/Debug/net8.0/Bookstore.sqlite

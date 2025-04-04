@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/6ce73e89-d1b9-4664-afcb-23bbf7a08827/resourceGroups/appsvc_windows_eastus/providers/Microsoft.Web/sites/Bookstore-Turner-backend",
+  "appService.deploySubpath": "backend/Mission11_Turner/publish"
+}

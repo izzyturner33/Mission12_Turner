@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import the cart context provider to manage global cart state
 import { CartProvider } from './context/CartContext';
+import AdminProjectsPage from './pages/AdminProjectsPage';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
 
             {/* Route for viewing the shopping cart */}
             <Route path="/cart" element={<CartPage />} />
+            <Route path="/adminbooks" element={<AdminProjectsPage />} />
           </Routes>
         </Router>
       </CartProvider>
